@@ -1,29 +1,49 @@
-# GRE Vocab Downloader
-🛠️ How to Install and Use Follow these steps to set up the extension on your Google Chrome browser:
+# GRE-Vocab-Downloader
 
-Step 1: Download the Extension
-Download this repository as a ZIP file by clicking the green Code button at the top of this page.
+A lightweight Chrome Extension designed to streamline GRE vocabulary collection and management directly from your browser. [cite_start]Developed as part of a graduate research and preparation toolset[cite: 5, 58].
 
-Extract the ZIP file into a folder you can easily access (e.g., your Desktop or a Projects folder).
+---
 
-Step 2: Access Chrome Extensions
-Open Google Chrome.
+## 🛠️ How to Install and Use
+Follow these steps to set up the extension on your Google Chrome browser:
 
-In the address bar, type chrome://extensions/ and press Enter.
+### **Step 1: Download the Extension**
+* Download this repository as a ZIP file by clicking the green **Code** button at the top of this page.
+* Extract the ZIP file into a local folder (e.g., your Desktop or a Projects folder).
 
-Alternatively, click the three dots (top right) > Extensions > Manage Extensions.
+### **Step 2: Access Chrome Extensions**
+* Open Google Chrome and type `chrome://extensions/` in the address bar.
+* Alternatively, go to **Settings** > **Extensions** > **Manage Extensions**.
 
-Step 3: Enable Developer Mode
-In the top-right corner of the Extensions page, toggle the Developer mode switch to ON.
+![Accessing Extensions](extension.jpg)
 
-Step 4: Load the Extension
-Click the Load unpacked button that appears in the top-left.
+### **Step 3: Enable Developer Mode**
+* In the top-right corner, toggle the **Developer mode** switch to **ON**.
 
-Navigate to and select the folder where you extracted the files (the folder containing manifest.json).
+![Enabling Developer Mode](devloper%20mode.jpg)
 
-Step 5: Use the Extension
-Click the Puzzle Piece icon (Extensions) in your Chrome toolbar.
+### **Step 4: Load the Extension**
+* Click the **Load unpacked** button in the top-left corner.
+* Select the folder where you extracted the project files ( Keep all js ,html and json file one file ).
 
-Find GRE-Vocab-Downloader and click the Pin icon to keep it visible.
+![Loading Unpacked Extension](load%20unpacked.jpg)
 
-Click the extension icon to open the interface.
+### **Step 5: Use the Extension**
+* Click the **Puzzle Piece** icon in your toolbar and **Pin** the GRE-Vocab-Downloader.
+* [cite_start]Use the popup interface or the integrated side panel to start downloading vocabulary[cite: 65, 69].
+
+---
+
+
+## 📂 Project Structure
+* **manifest.json**: Extension configuration and permissions.
+* [cite_start]**background.js**: Manages background tasks and download logic[cite: 13].
+* [cite_start]**popup.js & sidepanel.js**: UI logic for quick access and navigation[cite: 61, 65].
+* [cite_start]**Technical Stack**: Developed using JavaScript (ES6+), HTML5, and CSS3[cite: 60, 61].
+
+---
+
+## 👤 Author
+**Md Soumike Hassan** Data Scientist | [cite_start]MS in Statistics and Data Science [cite: 1, 6, 8]  
+* [cite_start]**Research Interests**: Computer Vision, XAI, and Medical AI [cite: 53, 55, 57]
+* [cite_start]**LinkedIn**: [Your Profile Link Here] [cite: 2]
