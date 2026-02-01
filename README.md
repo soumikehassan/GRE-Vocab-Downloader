@@ -1,6 +1,6 @@
 # GRE-Vocab-Downloader
 
-A lightweight Chrome Extension designed to streamline GRE vocabulary collection and management directly from your browser. [cite_start]Developed as part of a graduate research and preparation toolset[cite: 5, 58].
+A lightweight Chrome Extension designed to streamline GRE vocabulary collection and management directly from your browser. Developed as part of a graduate research and preparation toolset.
 
 ---
 
@@ -30,25 +30,25 @@ Follow these steps to set up the extension on your Google Chrome browser:
 
 ### **Step 5: Use the Extension**
 * Click the **Puzzle Piece** icon in your toolbar and **Pin** the GRE-Vocab-Downloader.
-* [cite_start]Use the popup interface or the integrated side panel to start managing your vocabulary[cite: 65, 69].
+* Use the popup interface or the integrated side panel to start managing your vocabulary.
 
 ---
 
 ## 📄 Vocabulary Export Feature
 The extension includes a built-in utility to help you study offline or import your data into other tools.
 
-![Download Interface](load%20vocab_download.png)
+![Download Interface](vocab_download.jpg)
 
-* [cite_start]**Text File Download**: Users can export their collected vocabulary list directly as a formatted `.txt` file for easy review[cite: 69].
+* **Text File Download**: Users can export their collected vocabulary list directly as a formatted `.txt` file for easy review.
 * **One-Click Export**: Simply click the **"Download List (.txt)"** button at the bottom of the extension interface to save your progress locally.
 
 ---
 
 ## 📂 Project Structure
 * **manifest.json**: Extension configuration and permissions.
-* [cite_start]**background.js**: Manages background tasks and download logic[cite: 13].
-* [cite_start]**popup.js & sidepanel.js**: UI logic for quick access and navigation[cite: 61, 65].
-* [cite_start]**Technical Stack**: Developed using JavaScript (ES6+), HTML5, and CSS3[cite: 60, 61].
+* **background.js**: Manages background tasks and download logic.
+* **popup.js & sidepanel.js**: UI logic for quick access and navigation.
+* **Technical Stack**: Developed using JavaScript (ES6+), HTML5, and CSS3.
 
 ---
 
