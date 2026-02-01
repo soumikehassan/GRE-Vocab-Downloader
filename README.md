@@ -24,16 +24,24 @@ Follow these steps to set up the extension on your Google Chrome browser:
 
 ### **Step 4: Load the Extension**
 * Click the **Load unpacked** button in the top-left corner.
-* Select the folder where you extracted the project files ( Keep all js ,html and json file one file ).
+* Select the folder where you extracted the project files (ensure all `.js`, `.html`, and `.json` files are in this single folder).
 
 ![Loading Unpacked Extension](load%20unpacked.jpg)
 
 ### **Step 5: Use the Extension**
 * Click the **Puzzle Piece** icon in your toolbar and **Pin** the GRE-Vocab-Downloader.
-* [cite_start]Use the popup interface or the integrated side panel to start downloading vocabulary[cite: 65, 69].
+* [cite_start]Use the popup interface or the integrated side panel to start managing your vocabulary[cite: 65, 69].
 
 ---
 
+## 📄 Vocabulary Export Feature
+The extension includes a built-in utility to help you study offline or import your data into other tools:
+
+* [cite_start]**Text File Download**: Users can export their collected vocabulary list directly as a formatted `.txt` file for easy review[cite: 69].
+* **One-Click Export**: Simply click the **"Download List (.txt)"** button at the bottom of the extension interface to save your progress locally.
+
+
+---
 
 ## 📂 Project Structure
 * **manifest.json**: Extension configuration and permissions.
@@ -44,6 +52,6 @@ Follow these steps to set up the extension on your Google Chrome browser:
 ---
 
 ## 👤 Author
-**Md Soumike Hassan** Data Scientist | [cite_start]MS in Statistics and Data Science [cite: 1, 6, 8]  
-* [cite_start]**Research Interests**: Computer Vision, XAI, and Medical AI [cite: 53, 55, 57]
-* [cite_start]**LinkedIn**: [Your Profile Link Here] [cite: 2]
+**Md Soumike Hassan** | Data Scientist | [cite_start]MS in Statistics and Data Science [cite: 1, 6, 8]  
+* [cite_start]**Research Interests**: Computer Vision, Explainable AI (XAI), and Medical AI [cite: 53, 55, 57]
+* [cite_start]**LinkedIn**: [Your Profile Link Here]
