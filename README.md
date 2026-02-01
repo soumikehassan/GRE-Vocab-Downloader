@@ -37,7 +37,7 @@ Follow these steps to set up the extension on your Google Chrome browser:
 ## 📄 Vocabulary Export Feature
 The extension includes a built-in utility to help you study offline or import your data into other tools.
 
-![Download Interface](vocab_download.jpg)
+![Download Interface](vocab_download.png)
 
 * **Text File Download**: Users can export their collected vocabulary list directly as a formatted `.txt` file for easy review.
 * **One-Click Export**: Simply click the **"Download List (.txt)"** button at the bottom of the extension interface to save your progress locally.
